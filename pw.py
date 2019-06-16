@@ -6,6 +6,7 @@ PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
              'luggage': '12345'}
 
 import sys, pyperclip
+# if len(sys.argv)<2, then it means the user didn't enter any parameters from command line
 if len(sys.argv) < 2:
     print('Usage: python pw.py [account] - copy account password')
     sys.exit()
